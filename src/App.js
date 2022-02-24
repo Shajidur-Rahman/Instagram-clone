@@ -1,19 +1,11 @@
-import Post from "./components/Post"
 import './App.css';
+import PostShot from './components/PostShot';
 
 function App() {
   return (
       <>
-      <div className="post">
-
-      <Post id="shajidur" img="./components/img/download.jpeg" comment="Please comment "/>
-      <Post id="shajidur" img="./components/img/download.jpeg" comment="Please comment "/>
-      <Post id="shajidur" img="./components/img/download.jpeg" comment="Please comment "/>
-      <Post id="shajidur" img="./components/img/download.jpeg" comment="Please comment "/>
-      <Post id="shajidur" img="./components/img/download.jpeg" comment="Please comment "/>
-      <Post id="shajidur" img="./components/img/download.jpeg" comment="Please comment "/>
-
-      </div>
+        {/* <PostShot/> */}
+        
       </>
   );
 }
